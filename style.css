@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+body{
+    background-color: #1DB954;
+    color-scheme: 0.5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 10px 20px;
+}
+
+.brand-logo img{
+    height: 59px;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    color: #1DB954;
+    font-size: 1.35rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url('background top 50.jpg');
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 140px;
+    background-color: black;
+    color: white;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom .icons{
+    font-size: 2rem;
+    margin-top: 25px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 70vw;
+    accent-color: #1DB954 ;
+    cursor: pointer ;
+}
+
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: white ;
+    opacity: 0.8;
+    width: 150%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding-right: 20px;
+}
+
+.songItem img{
+    width: 35px;
+    margin: 0 23px;
+    border-radius: 9px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 50px;
+
+}
+
+.songInfo{
+    position: absolute;
+    left: 15vw;
+    font-size: large;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    font-family: 'Montserrat', sans-serif;
+}

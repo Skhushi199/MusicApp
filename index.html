@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand-logo"><img src="Spotify-Logo-Transparent-Free-PNG.png" alt="SPOTIFY">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Subscription</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songList">
+            <h1>Top Globals</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="miles on it.jpg" alt="1" >
+                    <span class="songName">Miles on it</span>
+                    <span class="songListPlay"> <span class="timeStamp">4:31 <i id="0" class="fa-regular songItemPlay  fa-2x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="blinding lights png.jpeg" alt="1" >
+                    <span class="songName">Blinding Lights</span>
+                    <span class="songListPlay"> <span class="timeStamp">4:22 <i id="1" class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="shape of you.jpg" alt="1" >
+                    <span class="songName">Shape of you</span>
+                    <span class="songListPlay"> <span class="timeStamp">5:34 <i id="2" class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="someone you loved.jpeg" alt="1" >
+                    <span class="songName">Someone you loved</span>
+                    <span class="songListPlay"> <span class="timeStamp">5:34 <i id="3" class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="sunflower.jpeg" alt="1" >
+                    <span class="songName">Sunflower</span>
+                    <span class="songListPlay"> <span class="timeStamp">5:34 <i id="4" class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="as it was.jpeg" alt="1" >
+                    <span class="songName">As it was</span>
+                    <span class="songListPlay"> <span class="timeStamp">5:34 <i id="5" class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="dont start now.jpeg" alt="1" >
+                    <span class="songName">Dont Start Now</span>
+                    <span class="songListPlay"> <span class="timeStamp">5:34 <i id="6" class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="1000">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="play.gif" width="80px" alt="1" id="gif"><span id="masterSongName">Miles on it-Marshmello</span> 
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js" integrity="sha512-7dlzSK4Ulfm85ypS8/ya0xLf3NpXiML3s6HTLu4qDq7WiJWtLLyrXb9putdP3/1umwTmzIvhuu9EW7gHYSVtCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
